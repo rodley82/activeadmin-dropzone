@@ -30,7 +30,7 @@ module Activeadmin
                 end
 
                 unless changes.empty?
-                  dropzone_object.update_attributes changes
+                  dropzone_object.update changes
                 end
               end
 
